@@ -1,3 +1,4 @@
+import NavBar from "./components/NavBar";
 import "./css/App.css";
 
 function App() {
@@ -17,7 +18,11 @@ function App() {
           Learn React
         </a>
       </header> */}
-      <h1>Hello World!</h1>
+
+      <NavBar />
+      <div className="container">
+        
+      </div>
     </div>
   );
 }

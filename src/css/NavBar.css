@@ -1,0 +1,69 @@
+:root {
+  --clr1: rgb(99, 120, 255);
+}
+
+.NavBar {
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0px 15%;
+  margin-top: 25px;
+  /* background-color: yellow; */
+}
+
+/* Logo */
+
+.NavBar img {
+  /* background-color: red; */
+  object-fit: contain;
+}
+
+/*  */
+
+/* Links */
+
+.NavBar ul {
+  min-width: 50%;
+  display: flex;
+  list-style-type: none;
+  /* justify-content: space-around; */
+  justify-content: center;
+}
+
+.NavBar ul li {
+  background-color: gren;
+  margin: 0 20px;
+  font-size: 24;
+  padding: 20px;
+}
+.NavBar ul li:hover {
+  /* font-weight: bold; */
+  color: var(--clr1);
+}
+
+/*  */
+
+/* Login Signup */
+.NavBar div {
+  /* margin-top: 20px; */
+  display: flex;
+}
+.NavBar div button {
+  /* background-color: blue; */
+  background: transparent;
+  color: var(--clr1);
+  font-weight: bold;
+  border: 1px solid var(--clr1);
+
+  height: 50px;
+  width: 120px;
+
+  border-radius: 50px / 40px;
+  margin: 0 12px;
+}
+
+.NavBar div button:hover {
+  background: var(--clr1);
+  color: var(--background);
+}
+/*  */
