@@ -1,5 +1,6 @@
 import NavBar from "./components/NavBar";
 import "./css/App.css";
+import HomePage from "./components/pages/Home";
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
 
       <NavBar />
       <div className="container">
-        
+        <HomePage />
       </div>
     </div>
   );
