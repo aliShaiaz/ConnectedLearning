@@ -1,0 +1,20 @@
+/* @import url("./CourseCard.css"); */
+#ourOnlineCourse {
+  /* background-color: red; */
+  position: absolute;
+  width: 228px;
+  height: 158px;
+  top: 1052px;
+  left: 846px;
+}
+
+#couseList {
+  position: absolute;
+
+  width: 1461px;
+  min-height: 3525px;
+  top: 1260px;
+  left: 240px;
+
+  padding-bottom: 100px;
+}

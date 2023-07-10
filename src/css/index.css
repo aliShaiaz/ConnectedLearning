@@ -1,6 +1,7 @@
 @import url("./NavBar.css");
 @import url("./Containter.css");
 @import url("./ContactPage.css");
+@import url(./CoursePage.css);
 
 :root {
   --background: rgb(237, 238, 243);
