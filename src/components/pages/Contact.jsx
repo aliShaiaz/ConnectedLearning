@@ -1,6 +1,8 @@
 import React from "react";
 import imageFiles from "../../files/_imageFiles";
 const ContactPage = () => {
+  const pageName = "Contact";
+
   return (
     <>
       <div className="contactPage">
@@ -15,7 +17,7 @@ const ContactPage = () => {
           <div className="Foreground">
             <span>Home</span>
             <div className="flipH">〱</div>
-            <span className="pageTitle">Contact</span>
+            <span className="pageTitle">{pageName}</span>
           </div>
         </div>
 
