@@ -1,25 +1,12 @@
 import React from "react";
 import imageFiles from "../../files/_imageFiles";
-const ContactPage = () => {
-  const pageName = "Contact";
+import PageLandingWallpaper from "../common/PageLandingWallpaper";
 
+const ContactPage = () => {
   return (
     <>
       <div className="contactPage">
-        <div className="landingWallpaper">
-          <div className="Background">
-            <img
-              className="darken"
-              src={imageFiles["wallpaper_" + pageName.toLowerCase()]}
-              alt="Handshake"
-            />
-          </div>
-          <div className="Foreground">
-            <span>Home</span>
-            <div className="flipH">〱</div>
-            <span className="pageTitle">{pageName}</span>
-          </div>
-        </div>
+        <PageLandingWallpaper pageName="Contact" />
 
         <div className="contactBlock">
           <img src={imageFiles.Contact_Us} alt="Contact_Us" />
