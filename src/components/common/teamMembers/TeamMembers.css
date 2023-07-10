@@ -1,0 +1,50 @@
+.teamMember {
+  width: 342px;
+  height: 509px;
+  border-radius: 30px;
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+
+  .photo {
+    display: block;
+    margin: 0;
+    padding: 0;
+    /* height: 575; */
+    top: -70px;
+    left: -70px;
+    object-fit: cover;
+  }
+
+  .bkgrnd {
+    background-color: #6278ff;
+    width: 342px;
+    height: 141px;
+    top: 368px;
+    border-radius: 0px 0px 30px 30px;
+  }
+  .name {
+    text-align: center;
+    top: 409px;
+    width: 100%;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #eceef5;
+  }
+
+  .designation {
+    width: 100%;
+    top: 441px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #e6e8f3;
+  }
+}

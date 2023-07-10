@@ -16,6 +16,16 @@ const imageFiles = {
   // Course Page
   ourOnlineCourse: require("./Group 105 (1).png"),
   bestSellerLogo: require("./best 1.png"),
+
+  // About Page
+  wallpaper_about: require("./about.png"),
+  whyUs: require("./Group 119.png"),
+  exp3: require("./experience (3) 1.png"),
+  dTeam: require("./united 1.png"),
+  fPrice: require("./tag 1.png"),
+  missionT: require("./Group 92.png"),
+  missionPhoto: require("./Group 95.png"),
+  tMember: require("./Group 21.png"),
 };
 
 export default imageFiles;
