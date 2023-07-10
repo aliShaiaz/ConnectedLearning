@@ -22,23 +22,33 @@
 /* Links */
 
 .NavBar ul {
-  min-width: 50%;
+  width: 662px;
   display: flex;
   list-style-type: none;
-  /* justify-content: space-around; */
   justify-content: center;
 }
 
 .NavBar ul li {
-  background-color: gren;
+  display: flex;
+  width: 124px;
+}
+.NavBar ul li a {
+  text-align: center;
+  text-decoration: none;
+  color: black;
   margin: 0 20px;
   font-size: 24;
   padding: 20px;
 }
-.NavBar ul li:hover {
-  /* font-weight: bold; */
+.NavBar ul li a:hover {
+  font-weight: bolder;
   color: var(--clr1);
 }
+
+/* .NavBar ul li a {
+  text-decoration: none;
+  color: black;
+} */
 
 /*  */
 

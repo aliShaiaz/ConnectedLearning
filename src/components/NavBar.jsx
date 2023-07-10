@@ -1,5 +1,6 @@
 import React from "react";
 import imageFiles from "../files/_imageFiles";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
@@ -7,10 +8,18 @@ const NavBar = () => {
       <div className="NavBar">
         <img src={imageFiles.Logo} alt="Logo" />
         <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Course</li>
-          <li>Contact</li>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/about">About</Link>
+          </li>
+          <li>
+            <Link to="/course">Course</Link>
+          </li>
+          <li>
+            <Link to="/contact">Contact</Link>
+          </li>
         </ul>
         <div>
           <button>Login</button>
