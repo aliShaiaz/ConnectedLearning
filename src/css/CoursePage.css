@@ -1,4 +1,6 @@
-/* @import url("./CourseCard.css"); */
+.coursePage {
+  height: 4770px;
+}
 #ourOnlineCourse {
   /* background-color: red; */
   position: absolute;

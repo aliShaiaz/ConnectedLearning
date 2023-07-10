@@ -1,7 +1,9 @@
 .AboutPage * {
   position: absolute;
 }
-
+.AboutPage {
+  height: 3129px;
+}
 .whyUs {
   width: 614px;
   height: 169px;

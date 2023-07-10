@@ -26,6 +26,13 @@ const imageFiles = {
   missionT: require("./Group 92.png"),
   missionPhoto: require("./Group 95.png"),
   tMember: require("./Group 21.png"),
+
+  // Footer
+  appStore: require("./image 30.png"),
+  playStore: require("./image 31.png"),
+  linkedInIcon: require("./linkedin (7) 1.png"),
+  twitterIcon: require("./twitter (7) 1@2x.png"),
+  fbIcon: require("./facebook (8) 1.png"),
 };
 
 export default imageFiles;

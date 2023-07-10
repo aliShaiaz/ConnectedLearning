@@ -5,6 +5,7 @@ import CoursePage from "./components/pages/Course";
 import { BrowserRouter, Routes, Route, redirect } from "react-router-dom";
 import HomePage from "./components/pages/Home";
 import AboutPage from "./components/pages/About";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
             <Route path="*" element={<HomePage />} />
           </Routes>
         </div>
+        <Footer />
       </BrowserRouter>
     </div>
   );
