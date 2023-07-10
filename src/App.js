@@ -1,6 +1,7 @@
 import NavBar from "./components/NavBar";
 import "./css/App.css";
 import ContactPage from "./components/pages/Contact";
+import CoursePage from "./components/pages/Course";
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
 
       <NavBar />
       <div className="container">
-        <ContactPage />
+        {/* <ContactPage /> */}
+        <CoursePage />
       </div>
     </div>
   );

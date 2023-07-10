@@ -3,17 +3,16 @@ import imageFiles from "../../files/_imageFiles";
 const ContactPage = () => {
   return (
     <>
-      {/* <h1>ContactPage</h1> */}
       <div className="contactPage">
         <div className="landingWallpaper">
           <div className="Background">
             <img
               className="darken"
-              src={imageFiles.Handshake}
+              src={imageFiles.wallpaper_contact}
               alt="Handshake"
             />
           </div>
-          <div className="Foreground ">
+          <div className="Foreground">
             <span>Home</span>
             <div className="flipH">〱</div>
             <span className="pageTitle">Contact</span>
