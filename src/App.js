@@ -2,6 +2,9 @@ import NavBar from "./components/NavBar";
 import "./css/App.css";
 import ContactPage from "./components/pages/Contact";
 import CoursePage from "./components/pages/Course";
+import { BrowserRouter, Routes, Route, redirect } from "react-router-dom";
+import HomePage from "./components/pages/Home";
+import AboutPage from "./components/pages/About";
 
 function App() {
   return (
@@ -21,11 +24,17 @@ function App() {
         </a>
       </header> */}
 
-      <NavBar />
-      <div className="container">
-        {/* <ContactPage /> */}
-        <CoursePage />
-      </div>
+      <BrowserRouter>
+        <NavBar />
+        <div className="container">
+          <Routes>
+            <Route path="/contact" element={<ContactPage />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/course" element={<CoursePage />} />
+            <Route path="*" element={<HomePage />} />
+          </Routes>
+        </div>
+      </BrowserRouter>
     </div>
   );
 }
