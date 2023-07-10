@@ -10,7 +10,7 @@ const ContactPage = () => {
           <div className="Background">
             <img
               className="darken"
-              src={imageFiles.wallpaper_contact}
+              src={imageFiles["wallpaper_" + pageName.toLowerCase()]}
               alt="Handshake"
             />
           </div>
