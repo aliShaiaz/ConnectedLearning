@@ -67,6 +67,7 @@ const imageFiles = {
   writeAssesment: require("./Group 4448.png"),
 
   arrowRight: require("./Mask group (4).png"),
+  btnSubmit: require("./Group 127.png"),
 };
 
 export default imageFiles;

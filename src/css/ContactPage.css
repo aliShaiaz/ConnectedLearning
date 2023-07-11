@@ -1,122 +1,133 @@
+.contactPage * {
+  position: absolute;
+}
 .contactPage {
   position: relative;
-  display: flex;
-  flex-direction: column;
-  /* overflow: hidden; */
-  height: 3150px;
-  /* background-color: red; */
+  margin-top: 115px;
+  height: 2986px;
+  width: 100%;
 
-  .contactBlock {
-    position: absolute;
-    width: 294px;
-    height: 158px;
-    top: 1000px;
-    left: 813px;
+  .section_wallpaper {
+    position: relative;
+    width: 1920px;
+    height: 837px;
   }
-  .contactUsImage {
-    position: absolute;
-    top: 1164px;
-    left: 750px;
-  }
-  .getInTouch {
-    position: absolute;
-    top: 1330px;
-    left: 238px;
-    width: 441px;
-    height: 547px;
-  }
-
-  .AnyQues {
-    position: absolute;
-    top: 2066px;
-    align-self: center;
-  }
-  .feedback {
-    padding-top: 15px;
-    position: absolute;
-    background: white;
-    width: 1440px;
-    height: 735px;
-    top: 2306px;
-    left: 240px;
-
-    .feedbackForm {
-      min-width: 100%;
-      min-height: 75%;
+  .section_contact {
+    .contactBlock {
+      position: absolute;
+      width: 294px;
+      height: 158px;
+      top: 100px;
+      left: 813px;
+    }
+    .contactUsImage {
+      position: absolute;
+      top: 212px;
+      left: 750px;
+    }
+    .getInTouch {
+      position: absolute;
+      top: 378px;
+      left: 238px;
+      width: 441px;
+      height: 547px;
     }
 
-    .feedbackForm tbody tr th {
-      align-items: center;
+    .AnyQues {
+      position: absolute;
+      top: 1114px;
+      left: 731px;
+      align-self: center;
     }
-    .feedbackForm tbody tr th input,
-    label {
-      display: block;
-      margin: auto;
+    .feedback {
+      padding-top: 15px;
+      position: absolute;
+      background: white;
+      width: 1440px;
+      height: 735px;
+      top: 1354px;
+      left: 240px;
+
+      .col1 {
+        left: 122px;
+      }
+      .col2 {
+        left: 730px;
+      }
+      .row1 {
+        top: 55px;
+      }
+      .row2 {
+        top: 182px;
+      }
+      .genInp {
+        height: 60px;
+        width: 588px;
+      }
+      .specialInp {
+        left: 122px;
+        top: 302px;
+        width: 1196px;
+        height: 248px;
+      }
     }
-    .feedbackForm tbody tr th label {
-      /* background-color: blue; */
-      width: 588px;
+    .feedback label {
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 27px;
+      letter-spacing: 0em;
       text-align: left;
-      margin-bottom: 20px;
+      color: #132742;
     }
-
-    .inp {
-      border: 0;
-      position: relative;
-      background: var(--background);
-      width: 588px;
-      height: 60px;
-      margin-top: 55px;
-      z-index: 100;
+    .feedback input {
       border-radius: 10px;
-      padding: 10px;
+      border: none;
+      background-color: #edeef3;
     }
-    #lbl2 {
-      min-width: 1310px;
-    }
-    .inp2 {
-      border: 0;
-      background: var(--background);
-      width: 1310px;
-      height: 180px;
-      border-radius: 10px;
-      padding: 10px;
-    }
-    .privacy {
-      position: relative;
-      left: 65px;
-      width: 50%;
-      display: flex;
-      justify-content: left;
-    }
-    .privacy label {
-      text-align: left;
-      width: 100%;
-      margin-left: 10px;
-    }
-    .privacy label a {
-      text-decoration: none;
-      color: red;
-      font-weight: bold;
-    }
-
-    .submitBtn {
-      position: relative;
-      font-weight: bold;
-      border: 1px solid var(--clr1);
-
-      height: 50px;
-      width: 150px;
-      border-radius: 50px / 55px;
-      background: var(--clr1);
-      color: white;
-      left: 65px;
+    .feedback input::placeholder {
       font-size: 16px;
-      margin-top: 25px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: left;
+      padding-left: 25px;
     }
-    .submitBtn:hover {
-      background: rgb(23, 56, 217);
+    .check {
+      top: 569px;
+      left: 138px;
+    }
+    .terms {
+      top: 562px;
+      left: 162px;
+    }
+    .terms * {
+      position: relative;
+      display: inline-block;
+      margin: 0 2px;
+
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 27px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+    .terms p {
+      color: #161e49;
+    }
+    .terms a {
+      text-decoration: none;
+      color: #ff0000;
+    }
+    .btnSubmit {
+      top: 644px;
+      left: 122px;
+      cursor: pointer;
+
+      width: 228px;
+      height: 50px;
+      border-radius: 25px;
     }
   }
 }
+
 /*  */

@@ -23,9 +23,8 @@
 
   #couseList {
     position: absolute;
-
     width: 1461px;
-    min-height: 3525px;
+    height: 2346px;
     top: 308px;
     left: 240px;
     overflow: hidden;

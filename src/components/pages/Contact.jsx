@@ -4,8 +4,12 @@ import PageLandingWallpaper from "../common/PageLandingWallpaper";
 
 const ContactPage = () => {
   return (
-    <>
-      <div className="contactPage">
+    <div className="contactPage">
+      <div className="section_wallpaper">
+        <PageLandingWallpaper pageName="Contact" />
+      </div>
+
+      <div className="section_contact">
         <PageLandingWallpaper pageName="Contact" />
 
         <div className="contactBlock">
@@ -22,80 +26,74 @@ const ContactPage = () => {
           <img src={imageFiles.AnyQues} alt="AnyQues" />
         </div>
         <div className="feedback">
-          <table className="feedbackForm">
-            <tbody>
-              <tr>
-                <th>
-                  <label htmlFor="name">Your Name</label>
-                  <input
-                    className="inp"
-                    name="name"
-                    id="name"
-                    type="text"
-                    placeholder="Type Your Name Here"
-                  />
-                </th>
-                <th>
-                  <label htmlFor="email">Email Address</label>
-                  <input
-                    className="inp"
-                    name="email"
-                    id="email"
-                    type="text"
-                    placeholder="Type your email here"
-                  />
-                </th>
-              </tr>
-              <tr>
-                <th>
-                  <label htmlFor="Subject">Subject</label>
-                  <input
-                    className="inp"
-                    name="subject"
-                    id="subject"
-                    type="text"
-                    placeholder="Type your subject here"
-                  />
-                </th>
-                <th>
-                  <label htmlFor="phone">Phone Number</label>
-                  <input
-                    className="inp"
-                    name="phone"
-                    id="phone"
-                    type="text"
-                    placeholder="Type your phone number here"
-                  />
-                </th>
-              </tr>
-              <tr>
-                <th colSpan={2}>
-                  <label id="lbl2" htmlFor="message">
-                    Massage ....
-                  </label>
-                  <input
-                    className="inp2"
-                    name="message"
-                    id="message"
-                    type="text"
-                    placeholder="Type your massage here ..........."
-                  />
-                </th>
-              </tr>
-            </tbody>
-          </table>
-          <div className="privacy">
-            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
-            <label htmlFor="vehicle1">
-              Accept <a href="">terms</a> and <a href="">privacy</a> policy.
-            </label>
+          <label style={{ top: "18px" }} className="col1 row1">
+            Your Name
+          </label>
+          <label style={{ top: "18px" }} className="col2 row1">
+            Email Address
+          </label>
+          <label style={{ top: "145px" }} className="col1 row2">
+            Subject
+          </label>
+          <label style={{ top: "145px" }} className="col2 row2">
+            Phone Number
+          </label>
+          <label style={{ top: "265px" }} className="specialInp">
+            Massage ....
+          </label>
+          <input
+            type="text"
+            name=""
+            id=""
+            placeholder="Your Name"
+            className="col1 row1 genInp"
+          />
+          <input
+            type="text"
+            name=""
+            id=""
+            placeholder="Email Address"
+            className="col2 row1 genInp"
+          />
+          <input
+            type="text"
+            name=""
+            id=""
+            placeholder="Subject"
+            className="col1 row2 genInp"
+          />
+          <input
+            type="text"
+            name=""
+            id=""
+            placeholder="Phone Number"
+            className="col2 row2 genInp"
+          />
+          <input
+            type="text"
+            name=""
+            id=""
+            placeholder="Massage ...."
+            className="specialInp"
+          />
+          <input type="checkbox" name="" id="" className="check" />
+          <div className="terms">
+            <p>Accept </p>
+            <a href="">terms</a>
+            <p> and </p>
+            <a href="">privacy policy</a>
+            <p>.</p>
           </div>
-          <button className="submitBtn" onClick={() => alert("Submitted!")}>
-            Submit Message
-          </button>
+          <img
+            src={imageFiles.btnSubmit}
+            alt=""
+            className="btnSubmit"
+            onClick={() => alert("Submitted!")}
+          />
         </div>
       </div>
-    </>
+      {/* */}
+    </div>
   );
 };
 
