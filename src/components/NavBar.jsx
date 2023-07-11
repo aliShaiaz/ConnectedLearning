@@ -13,7 +13,7 @@ const NavBar = () => {
           <li>
             <NavLink
               className={({ isActive }) => (isActive ? "active" : "inactive")}
-              to="/ConnectedLearning"
+              to="/ConnectedLearning/"
             >
               Home
             </NavLink>
