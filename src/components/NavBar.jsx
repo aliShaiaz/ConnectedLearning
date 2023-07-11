@@ -44,8 +44,8 @@ const NavBar = () => {
           </li>
         </ul>
         <div>
-          <button>Login</button>
-          <button>Sign-Up</button>
+          <button onClick={() => alert("Logged In!")}>Login</button>
+          <button onClick={() => alert("Signed Up!")}>Sign-Up</button>
         </div>
       </div>
     </>

@@ -19,6 +19,7 @@
   bottom: 0px;
 
   .logo {
+    cursor: pointer;
     width: 184px;
     height: 48px;
     top: 108px;
@@ -26,6 +27,7 @@
   }
 
   .appStore {
+    cursor: pointer;
     width: 198px;
     height: 57.85185241699219px;
     top: 264.57px;
@@ -33,6 +35,7 @@
   }
 
   .playStore {
+    cursor: pointer;
     width: 198px;
     height: 64px;
     top: 331px;
@@ -58,6 +61,7 @@
   }
 
   .submitEmail {
+    cursor: pointer;
     width: 144px;
     height: 50px;
     top: 114px;

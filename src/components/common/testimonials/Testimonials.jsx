@@ -35,7 +35,9 @@ const Testimonials = () => {
 
   var rating = [];
   for (let i = 0; i < testimonial.rating; i++) {
-    rating.push(<img src={imageFiles.star} className="rateStar" alt="" />);
+    rating.push(
+      <img key={i} src={imageFiles.star} className="rateStar" alt="" />
+    );
   }
   return (
     <div id="testimonial">
