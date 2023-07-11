@@ -1,22 +1,33 @@
+.coursePage * {
+  position: absolute;
+}
 .coursePage {
-  height: 4770px;
-}
-#ourOnlineCourse {
-  /* background-color: red; */
-  position: absolute;
-  width: 228px;
-  height: 158px;
-  top: 1052px;
-  left: 846px;
-}
+  position: relative;
+  margin-top: 115px;
+  height: 3565px;
+  width: 100%;
 
-#couseList {
-  position: absolute;
+  .section_wallpaper {
+    position: relative;
+    width: 1920px;
+    height: 837px;
+  }
 
-  width: 1461px;
-  min-height: 3525px;
-  top: 1260px;
-  left: 240px;
+  #ourOnlineCourse {
+    position: absolute;
+    width: 228px;
+    height: 158px;
+    top: 100px;
+    left: 846px;
+  }
 
-  padding-bottom: 100px;
+  #couseList {
+    position: absolute;
+
+    width: 1461px;
+    min-height: 3525px;
+    top: 308px;
+    left: 240px;
+    overflow: hidden;
+  }
 }

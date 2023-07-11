@@ -6,8 +6,11 @@ import PageLandingWallpaper from "../common/PageLandingWallpaper";
 
 const CoursePage = () => {
   return (
-    <>
-      <div className="coursePage">
+    <div className="coursePage">
+      <div className="section_wallpaper">
+        <PageLandingWallpaper pageName="Course" />
+      </div>
+      <div className="section_courses">
         <PageLandingWallpaper pageName="Course" />
 
         <img id="ourOnlineCourse" src={imageFiles.ourOnlineCourse} alt="" />
@@ -16,7 +19,7 @@ const CoursePage = () => {
           <CourseCards />
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
