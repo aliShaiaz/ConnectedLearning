@@ -3,7 +3,7 @@ import "./StarRating.css";
 
 const StarRating = () => {
   return (
-    <div className="rate">
+    <div id="rate">
       <input type="radio" id="star5" name="rate" value="5" />
       <label htmlFor="star5" title="text">
         5 stars

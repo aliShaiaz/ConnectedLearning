@@ -5,7 +5,6 @@
 }
 
 .courseCard {
-  position: relative;
   display: inline-block;
   margin: 10px;
   background-color: #ffffff;
@@ -13,7 +12,7 @@
   height: 565px;
   border-radius: 32px;
 
-  .courseImage {
+  #courseImage {
     width: 395px;
     height: 282px;
     top: 29px;
@@ -22,6 +21,7 @@
     object-fit: contain;
 
     .category {
+      position: absolute;
       background-color: #ffffffb2;
       opacity: 0.7;
 
@@ -41,7 +41,7 @@
     }
   }
 
-  .courseLabel {
+  #courseLabel {
     height: 30px;
     width: 202px;
     top: 349px;
@@ -50,7 +50,8 @@
     font-weight: 700;
   }
 
-  .courseRating {
+  #courseRating {
+    position: absolute;
     top: 351px;
     right: 36px;
     height: 25px;
@@ -58,7 +59,8 @@
     display: flex;
   }
 
-  .coursePrice {
+  #coursePrice {
+    position: absolute;
     height: 30px;
     width: 96px;
     top: 415px;
@@ -73,7 +75,7 @@
     color: #6278ff;
   }
 
-  .purchase {
+  #purchase {
     background-color: #6278ff;
     color: white;
     border: 0;
@@ -87,9 +89,11 @@
     line-height: 24px;
     letter-spacing: 0em;
     text-align: center;
+    cursor: pointer;
   }
 
   .elipse {
+    position: absolute;
     width: 60px;
     height: 60px;
     top: 477px;
@@ -97,11 +101,14 @@
     border-radius: 50%;
     object-fit: contain;
     background: #6278ff2e;
+    z-index: 100;
   }
   .elipse img {
+    position: absolute;
     margin: 13px;
   }
   .bestSeller {
+    position: absolute;
     width: 119px;
     height: 29px;
     top: 493px;

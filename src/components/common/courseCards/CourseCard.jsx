@@ -7,36 +7,33 @@ import Courses from "../../../files/courseData/_courseInfo";
 
 const CourseCard = ({ courseInfo }) => {
   return (
-    <>
-      <div className="courseCard">
-        <div className="courseImage">
-          <img src={courseInfo.cover} alt="" />
-          <div className="category">
-            <p>{courseInfo.category}</p>
-          </div>
+    <div className="courseCard" style={{ position: "relative" }}>
+      <div id="courseImage">
+        <img src={courseInfo.cover} alt="" />
+        <div className="category">
+          <p>{courseInfo.category}</p>
         </div>
-        <label className="courseLabel" htmlFor="">
-          {courseInfo.title}
-        </label>
-        <div className="courseRating">
-          <StarRating />
-        </div>
-        <div className="coursePrice">{courseInfo.price}</div>
-
-        <button className="purchase">Book Now</button>
-
-        {courseInfo.bestSeller && (
-          <>
-            <div className="elipse">
-              <img src={imageFiles.bestSellerLogo} alt="" />
-            </div>
-            <label htmlFor="" className="bestSeller">
-              Best Seller
-            </label>
-          </>
-        )}
       </div>
-    </>
+      <label id="courseLabel" htmlFor="">
+        {courseInfo.title}
+      </label>
+      <div id="courseRating">
+        <StarRating />
+      </div>
+      <div id="coursePrice">{courseInfo.price}</div>
+      <button id="purchase">Book Now</button>
+
+      {courseInfo.bestSeller && (
+        <>
+          <div className="elipse">
+            <img src={imageFiles.bestSellerLogo} alt="" />
+          </div>
+          <label htmlFor="" className="bestSeller">
+            Best Seller
+          </label>
+        </>
+      )}
+    </div>
   );
 };
 

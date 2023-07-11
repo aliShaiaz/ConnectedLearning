@@ -3,11 +3,13 @@
 }
 
 .NavBar {
+  position: absolute;
   padding: 5px;
   display: flex;
   justify-content: space-around;
   margin: 25px 15%;
   margin-top: 25px;
+  z-index: 200;
 }
 
 /* Logo */

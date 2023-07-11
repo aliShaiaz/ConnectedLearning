@@ -1,0 +1,72 @@
+.category {
+  position: relative;
+  width: 345px;
+  height: 241px;
+  border-radius: 7px;
+  background: #edeef3;
+  margin: 10px;
+  display: inline-block;
+  cursor: pointer;
+
+  .icon {
+    position: absolute;
+    top: 65px;
+    width: 100%;
+    object-fit: contain;
+    height: 55px;
+  }
+  #categoryTitle {
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    top: 141px;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #161e49;
+  }
+  .vec5 {
+    position: absolute;
+    width: 61px;
+    height: 56px;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+  }
+
+  .ell2 {
+    width: 34px;
+    height: 34px;
+    top: 64px;
+    right: 93px;
+    opacity: 0;
+  }
+  .ell3 {
+    width: 16px;
+    height: 16px;
+    top: 32px;
+    right: 82px;
+    opacity: 0;
+  }
+}
+
+.category:hover {
+  background: #6278ff;
+  .icon {
+    filter: brightness(100);
+  }
+  .title {
+    filter: brightness(100);
+  }
+  .vec5 {
+    opacity: 1;
+  }
+  .ell2 {
+    opacity: 1;
+  }
+  .ell3 {
+    opacity: 1;
+  }
+}
