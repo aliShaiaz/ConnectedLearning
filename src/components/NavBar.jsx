@@ -1,6 +1,6 @@
 import React from "react";
 import imageFiles from "../files/_imageFiles";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const NavBar = () => {
   return (
@@ -11,16 +11,36 @@ const NavBar = () => {
         </Link>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <NavLink
+              className={({ isActive }) => (isActive ? "active" : "inactive")}
+              to="/"
+            >
+              Home
+            </NavLink>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <NavLink
+              className={({ isActive }) => (isActive ? "active" : "inactive")}
+              to="/about"
+            >
+              About
+            </NavLink>
           </li>
           <li>
-            <Link to="/course">Course</Link>
+            <NavLink
+              className={({ isActive }) => (isActive ? "active" : "inactive")}
+              to="/course"
+            >
+              Course
+            </NavLink>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <NavLink
+              className={({ isActive }) => (isActive ? "active" : "inactive")}
+              to="/contact"
+            >
+              Contact
+            </NavLink>
           </li>
         </ul>
         <div>
