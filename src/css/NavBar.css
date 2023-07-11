@@ -36,16 +36,17 @@
   font-weight: bold;
 }
 
-.NavBar ul li {
-  display: flex;
-  width: 124px;
-}
 .NavBar ul li:has(.active) a::before {
   content: "___";
   position: absolute;
   color: #6278ff;
   font-weight: bold;
   top: 28px;
+}
+
+.NavBar ul li {
+  display: flex;
+  width: 124px;
 }
 
 .NavBar ul li a {

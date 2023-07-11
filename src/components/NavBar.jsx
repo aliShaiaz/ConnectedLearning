@@ -13,7 +13,7 @@ const NavBar = () => {
           <li>
             <NavLink
               className={({ isActive }) => (isActive ? "active" : "inactive")}
-              to="/"
+              to="/ConnectedLearning"
             >
               Home
             </NavLink>
@@ -21,7 +21,7 @@ const NavBar = () => {
           <li>
             <NavLink
               className={({ isActive }) => (isActive ? "active" : "inactive")}
-              to="/about"
+              to="/ConnectedLearning/about"
             >
               About
             </NavLink>
@@ -29,7 +29,7 @@ const NavBar = () => {
           <li>
             <NavLink
               className={({ isActive }) => (isActive ? "active" : "inactive")}
-              to="/course"
+              to="/ConnectedLearning/course"
             >
               Course
             </NavLink>
@@ -37,7 +37,7 @@ const NavBar = () => {
           <li>
             <NavLink
               className={({ isActive }) => (isActive ? "active" : "inactive")}
-              to="/contact"
+              to="/ConnectedLearning/contact"
             >
               Contact
             </NavLink>
