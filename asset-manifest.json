@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-project-connected_learning/static/css/main.bb6cbc71.css",
-    "main.js": "/react-project-connected_learning/static/js/main.a9b82231.js",
+    "main.js": "/react-project-connected_learning/static/js/main.3178a9f9.js",
     "static/media/about.png": "/react-project-connected_learning/static/media/about.3327b3c3fce52f878573.png",
     "static/media/Rectangle 352.png": "/react-project-connected_learning/static/media/Rectangle 352.3326b6c802c84bbebead.png",
     "static/media/Rectangle 35.png": "/react-project-connected_learning/static/media/Rectangle 35.ce9abf3e233d67d4e14d.png",
@@ -31,10 +31,10 @@
     "static/media/-removebg-preview 1.png": "/react-project-connected_learning/static/media/3288cee37d6a0e1d01e993381c9e6410-removebg-preview 1.a51c54e04fce6b3c894f.png",
     "index.html": "/react-project-connected_learning/index.html",
     "main.bb6cbc71.css.map": "/react-project-connected_learning/static/css/main.bb6cbc71.css.map",
-    "main.a9b82231.js.map": "/react-project-connected_learning/static/js/main.a9b82231.js.map"
+    "main.3178a9f9.js.map": "/react-project-connected_learning/static/js/main.3178a9f9.js.map"
   },
   "entrypoints": [
     "static/css/main.bb6cbc71.css",
-    "static/js/main.a9b82231.js"
+    "static/js/main.3178a9f9.js"
   ]
 }
