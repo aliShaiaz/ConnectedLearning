@@ -79,9 +79,9 @@ const ContactPage = () => {
           <input type="checkbox" name="" id="" className="check" />
           <div className="terms">
             <p>Accept </p>
-            <a href="">terms</a>
+            <a href="#">terms</a>
             <p> and </p>
-            <a href="">privacy policy</a>
+            <a href="#">privacy policy</a>
             <p>.</p>
           </div>
           <img
