@@ -13,8 +13,8 @@ const PageLandingWallpaper = ({ pageName }) => {
           />
         </div>
         <div className="Foreground">
-          <span>Home</span>
-          <div className="flipH">〱</div>
+          <span className="home">Home</span>
+          <img src={imageFiles.arrowRight} alt="" className="arrowRight" />
           <span className="pageTitle">{pageName}</span>
         </div>
       </div>

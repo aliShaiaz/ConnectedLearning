@@ -65,6 +65,8 @@ const imageFiles = {
   nextArrow: require("./Group 4447.png"),
 
   writeAssesment: require("./Group 4448.png"),
+
+  arrowRight: require("./Mask group (4).png"),
 };
 
 export default imageFiles;

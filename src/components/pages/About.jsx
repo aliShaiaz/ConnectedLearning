@@ -7,13 +7,14 @@ import TeamMembers from "../common/teamMembers/TeamMembers";
 
 const AboutPage = () => {
   return (
-    <>
-      <PageLandingWallpaper pageName="About" />
-      <div className="AboutPage">
+    <div className="AboutPage">
+      <div className="section_wallpaper">
+        <PageLandingWallpaper pageName="About" />
+      </div>
+      <div className="section_aboutUs">
         <div className="whyUs">
           <img src={imageFiles.whyUs} alt="" />
         </div>
-
         <img src={imageFiles.exp3} alt="" className="gExpIcon" />
         <p className="gExpTitle">Great Experience</p>
         <p className="gExpPara">
@@ -21,7 +22,6 @@ const AboutPage = () => {
           has roopiece of classical Latin liter ature from 45 BC, making it over
           2000 years old. Ri chard McClintock, a Latin profes
         </p>
-
         <img src={imageFiles.dTeam} alt="" className="dTeamIcon" />
         <p className="dTeamTitle">Dedicated Team</p>
         <p className="dTeamPara">
@@ -29,7 +29,6 @@ const AboutPage = () => {
           has roopiece of classical Latin liter ature from 45 BC, making it over
           2000 years old. Ri chard McClintock, a Latin profes
         </p>
-
         <img src={imageFiles.fPrice} alt="" className="fPriceIcon" />
         <p className="fPriceTitle">Flexible Pricing</p>
         <p className="fPricePara">
@@ -37,19 +36,20 @@ const AboutPage = () => {
           has roopiece of classical Latin liter ature from 45 BC, making it over
           2000 years old. Ri chard McClintock, a Latin profes
         </p>
-
+      </div>
+      <div className="section_mission">
         <div className="mission">
           <img src={imageFiles.missionT} className="Text" alt="" />
           <img src={imageFiles.missionPhoto} className="Photo" alt="" />
         </div>
-
+      </div>
+      <div className="section_team">
         <img src={imageFiles.tMember} alt="" className="tMember" />
-
-        <div className="teamMembers">
+        <div id="teamMembers">
           <TeamMembers />
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
