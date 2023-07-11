@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/react-project-connected_learning/static/css/main.bb6cbc71.css",
+    "main.js": "/react-project-connected_learning/static/js/main.a9b82231.js",
+    "static/media/about.png": "/react-project-connected_learning/static/media/about.3327b3c3fce52f878573.png",
+    "static/media/Rectangle 352.png": "/react-project-connected_learning/static/media/Rectangle 352.3326b6c802c84bbebead.png",
+    "static/media/Rectangle 35.png": "/react-project-connected_learning/static/media/Rectangle 35.ce9abf3e233d67d4e14d.png",
+    "static/media/Group 95.png": "/react-project-connected_learning/static/media/Group 95.cdb589bc5bbf227c50c6.png",
+    "static/media/Rectangle 6.png": "/react-project-connected_learning/static/media/Rectangle 6.f944e98f425a3d83c523.png",
+    "static/media/Rectangle 22.png": "/react-project-connected_learning/static/media/Rectangle 22.a57e75cffe85ee659d97.png",
+    "static/media/Rectangle 23.png": "/react-project-connected_learning/static/media/Rectangle 23.e64d780b2df83b7f47d3.png",
+    "static/media/Rectangle 21.png": "/react-project-connected_learning/static/media/Rectangle 21.1fb27efb5af1546a64c0.png",
+    "static/media/Rectangle 22 (1).png": "/react-project-connected_learning/static/media/Rectangle 22 (1).ff6345cb6a4040ad0748.png",
+    "static/media/Rectangle 21 (1).png": "/react-project-connected_learning/static/media/Rectangle 21 (1).9cab258ad0891863a6a1.png",
+    "static/media/Rectangle 23 (1).png": "/react-project-connected_learning/static/media/Rectangle 23 (1).405eb2bafc0a56b5b155.png",
+    "static/media/Rectangle 24.png": "/react-project-connected_learning/static/media/Rectangle 24.a4db6d0a591bab7d93c8.png",
+    "static/media/Rectangle 24 (1).png": "/react-project-connected_learning/static/media/Rectangle 24 (1).8b03f6cffc18dd798adb.png",
+    "static/media/Group 6.png": "/react-project-connected_learning/static/media/Group 6.83c0167383aa116fe62a.png",
+    "static/media/Rectangle 28.png": "/react-project-connected_learning/static/media/Rectangle 28.8390bed39e20285bc940.png",
+    "static/media/UI-UX-2.png": "/react-project-connected_learning/static/media/UI-UX-2.f649d309709a938866cd.png",
+    "static/media/UI-UX.png": "/react-project-connected_learning/static/media/UI-UX.af5e755f26ae0a927465.png",
+    "static/media/Digital Marketing.png": "/react-project-connected_learning/static/media/Digital Marketing.003de7800d60f236ab48.png",
+    "static/media/CSS.png": "/react-project-connected_learning/static/media/CSS.c88aa86e6c624cf8f543.png",
+    "static/media/Contact us-rafiki 1.png": "/react-project-connected_learning/static/media/Contact us-rafiki 1.504dda6e7c55001cf243.png",
+    "static/media/Group 92.png": "/react-project-connected_learning/static/media/Group 92.0ec0e802bcbf64d19c53.png",
+    "static/media/Group 128.png": "/react-project-connected_learning/static/media/Group 128.f5164c4663f8e79eda83.png",
+    "static/media/Rectangle 7.png": "/react-project-connected_learning/static/media/Rectangle 7.2ee61cd16a403e728f6a.png",
+    "static/media/For Every Student Every Classroom. Real Results..png": "/react-project-connected_learning/static/media/For Every Student Every Classroom. Real Results..49c8c41762f92960f59e.png",
+    "static/media/Group 119.png": "/react-project-connected_learning/static/media/Group 119.d3ac39bc8f9f7a4bc802.png",
+    "static/media/image 32.png": "/react-project-connected_learning/static/media/image 32.994f0e1ff5519563c9c1.png",
+    "static/media/-removebg-preview 1.png": "/react-project-connected_learning/static/media/3288cee37d6a0e1d01e993381c9e6410-removebg-preview 1.a51c54e04fce6b3c894f.png",
+    "index.html": "/react-project-connected_learning/index.html",
+    "main.bb6cbc71.css.map": "/react-project-connected_learning/static/css/main.bb6cbc71.css.map",
+    "main.a9b82231.js.map": "/react-project-connected_learning/static/js/main.a9b82231.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb6cbc71.css",
+    "static/js/main.a9b82231.js"
+  ]
+}
