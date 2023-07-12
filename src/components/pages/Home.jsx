@@ -80,7 +80,7 @@ const HomePage = () => {
           {/* fadlksjf */}
         </Link>
       </div>
-      <div id="service">
+      <div id="service" className="noOverflow">
         <p className="title">Service</p>
         <p className="heading">Top Categories</p>
         <div className="categoriesSection">
@@ -89,12 +89,16 @@ const HomePage = () => {
       </div>
       <div id="tMem">
         <p className="title">Team Member</p>
-        <p className="heading">Popular Professional Teachers</p>
+        <p className="heading">
+          Popular Professional
+          <br />
+          Teachers
+        </p>
         <div className="empCard">
           <TeamMembers />
         </div>
       </div>
-      <div id="testimonial">
+      <div id="testimonialSection">
         <p className="title">Testimonial</p>
         <p className="heading">What They Say?</p>
         <p className="body">

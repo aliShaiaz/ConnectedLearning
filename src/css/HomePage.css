@@ -10,7 +10,7 @@
   #landingArea {
     position: relative;
     height: 1201px;
-    min-width: 100%;
+    min-width: 1905px;
 
     .img1 {
       width: 587.4530029296875px;
@@ -175,7 +175,7 @@
 
   #aboutUs {
     position: relative;
-    width: 100%;
+    width: 1905px;
     height: 811px;
     background-color: #ffffff;
 
@@ -221,7 +221,7 @@
       color: #6278ff;
     }
     .heading {
-      width: 565px;
+      width: 600px;
       height: 128px;
       top: 153px;
       left: 1048px;
@@ -264,7 +264,7 @@
 
   #courseList {
     position: relative;
-    width: 100%;
+    width: 1905px;
     height: 1690px;
 
     .title {
@@ -281,7 +281,7 @@
       color: #6278ff;
     }
     .heading {
-      width: 375px;
+      width: 400px;
       height: 128px;
       top: 132px;
       left: 239px;
@@ -308,7 +308,7 @@
   }
   #service {
     position: relative;
-    width: 100%;
+    width: 1905px;
     height: 898px;
     background-color: #ffffff;
 
@@ -347,7 +347,7 @@
   }
   #tMem {
     position: relative;
-    width: 100%;
+    width: 1905px;
     height: 919px;
 
     .title {
@@ -361,9 +361,8 @@
       color: #6278ff;
     }
     .heading {
-      width: 460px;
+      width: 100%;
       top: 132px;
-      left: 734px;
       font-size: 48px;
       font-weight: 700;
       line-height: 64px;
@@ -380,9 +379,9 @@
       overflow: hidden;
     }
   }
-  #testimonial {
+  #testimonialSection {
     position: relative;
-    width: 100%;
+    width: 1905px;
     height: 712px;
     background-color: #ffffff;
     margin-bottom: 100px;

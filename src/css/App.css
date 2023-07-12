@@ -47,3 +47,11 @@
   }
   /*  */
 }
+
+.noOverflow {
+  overflow: hidden;
+}
+.App {
+  max-width: 1905px;
+  overflow: hidden;
+}

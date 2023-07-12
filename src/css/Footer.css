@@ -42,18 +42,21 @@
     left: 240px;
   }
   .linkedInIcon {
+    cursor: pointer;
     width: 25px;
     height: 25px;
     top: 464px;
     left: 240px;
   }
   .twitterIcon {
+    cursor: pointer;
     width: 25px;
     height: 25px;
     top: 464px;
     left: 280px;
   }
   .fbIcon {
+    cursor: pointer;
     width: 25px;
     height: 25px;
     top: 464px;
@@ -123,7 +126,7 @@
   }
 
   .l3 {
-    width: 112px;
+    width: 115px;
     height: 30px;
     top: 117px;
     left: 746px;
