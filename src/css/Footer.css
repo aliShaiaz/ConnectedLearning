@@ -8,9 +8,9 @@
 .footer {
   position: relative;
   margin-top: auto;
-  right: 0;
-  left: 0;
   bottom: 0;
+  width: 1905px;
+
   /* display: flex; */
   /* align-self: baseline; */
   background-color: #132742;

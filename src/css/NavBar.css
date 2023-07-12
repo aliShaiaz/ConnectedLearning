@@ -4,11 +4,10 @@
 
 .NavBar {
   position: absolute;
-  top: 0px;
+  width: 1905px;
   padding: 5px;
   display: flex;
   justify-content: space-around;
-  margin: 25px 15%;
   margin-top: 25px;
   z-index: 200;
 }

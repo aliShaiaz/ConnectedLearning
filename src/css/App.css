@@ -53,5 +53,5 @@
 }
 .App {
   max-width: 1905px;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
