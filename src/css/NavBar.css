@@ -2,8 +2,11 @@
   --clr1: rgb(99, 120, 255);
 }
 
+/* top: 0px; */
+/* margin: 25px 15%; */
 .NavBar {
   position: absolute;
+  top: 0px;
   width: 1905px;
   padding: 5px;
   display: flex;

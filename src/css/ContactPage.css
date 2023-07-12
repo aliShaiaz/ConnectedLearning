@@ -55,10 +55,10 @@
         left: 730px;
       }
       .row1 {
-        top: 55px;
+        top: 75px;
       }
       .row2 {
-        top: 182px;
+        top: 202px;
       }
       .genInp {
         height: 60px;
@@ -66,7 +66,7 @@
       }
       .specialInp {
         left: 122px;
-        top: 302px;
+        top: 322px;
         width: 1196px;
         height: 248px;
       }
@@ -93,11 +93,11 @@
       padding-left: 25px;
     }
     .check {
-      top: 569px;
+      top: 589px;
       left: 138px;
     }
     .terms {
-      top: 562px;
+      top: 582px;
       left: 162px;
     }
     .terms * {

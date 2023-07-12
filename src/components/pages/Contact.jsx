@@ -26,19 +26,19 @@ const ContactPage = () => {
           <img src={imageFiles.AnyQues} alt="AnyQues" />
         </div>
         <div className="feedback">
-          <label style={{ top: "18px" }} className="col1 row1">
+          <label style={{ top: "38px" }} className="col1 row1">
             Your Name
           </label>
-          <label style={{ top: "18px" }} className="col2 row1">
+          <label style={{ top: "38px" }} className="col2 row1">
             Email Address
           </label>
-          <label style={{ top: "145px" }} className="col1 row2">
+          <label style={{ top: "165px" }} className="col1 row2">
             Subject
           </label>
-          <label style={{ top: "145px" }} className="col2 row2">
+          <label style={{ top: "165px" }} className="col2 row2">
             Phone Number
           </label>
-          <label style={{ top: "265px" }} className="specialInp">
+          <label style={{ top: "285px" }} className="specialInp">
             Massage ....
           </label>
           <input
