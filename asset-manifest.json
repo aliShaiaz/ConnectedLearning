@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ConnectedLearning/static/css/main.8431f0a7.css",
+    "main.css": "/ConnectedLearning/static/css/main.a52b26bc.css",
     "main.js": "/ConnectedLearning/static/js/main.46a4f23e.js",
     "static/media/about.png": "/ConnectedLearning/static/media/about.3327b3c3fce52f878573.png",
     "static/media/Rectangle 352.png": "/ConnectedLearning/static/media/Rectangle 352.3326b6c802c84bbebead.png",
@@ -30,11 +30,11 @@
     "static/media/image 32.png": "/ConnectedLearning/static/media/image 32.994f0e1ff5519563c9c1.png",
     "static/media/-removebg-preview 1.png": "/ConnectedLearning/static/media/3288cee37d6a0e1d01e993381c9e6410-removebg-preview 1.a51c54e04fce6b3c894f.png",
     "index.html": "/ConnectedLearning/index.html",
-    "main.8431f0a7.css.map": "/ConnectedLearning/static/css/main.8431f0a7.css.map",
+    "main.a52b26bc.css.map": "/ConnectedLearning/static/css/main.a52b26bc.css.map",
     "main.46a4f23e.js.map": "/ConnectedLearning/static/js/main.46a4f23e.js.map"
   },
   "entrypoints": [
-    "static/css/main.8431f0a7.css",
+    "static/css/main.a52b26bc.css",
     "static/js/main.46a4f23e.js"
   ]
 }
