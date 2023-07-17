@@ -4,10 +4,16 @@ import imageFiles from "../../files/_imageFiles";
 
 import "../../css/AboutPage.css";
 import TeamMembers from "../common/teamMembers/TeamMembers";
+import { motion } from "framer-motion";
 
 const AboutPage = () => {
   return (
-    <div className="AboutPage">
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      className="AboutPage"
+    >
       <div className="section_wallpaper">
         <PageLandingWallpaper pageName="About" />
       </div>
@@ -49,7 +55,7 @@ const AboutPage = () => {
           <TeamMembers />
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

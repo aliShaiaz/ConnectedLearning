@@ -6,11 +6,16 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import HomePage from "./components/pages/Home";
 import AboutPage from "./components/pages/About";
 import Footer from "./components/Footer";
-import imageFiles from "./files/_imageFiles";
+import { motion } from "framer-motion";
 
 function App() {
   return (
-    <div className="App">
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      className="App"
+    >
       <BrowserRouter>
         <NavBar />
         <Routes>
@@ -42,7 +47,7 @@ function App() {
         </Routes>
         <Footer />
       </BrowserRouter>
-    </div>
+    </motion.div>
   );
 }
 

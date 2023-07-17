@@ -2,9 +2,16 @@ import React from "react";
 import imageFiles from "../../files/_imageFiles";
 import PageLandingWallpaper from "../common/PageLandingWallpaper";
 
+import { motion } from "framer-motion";
+
 const ContactPage = () => {
   return (
-    <div className="contactPage">
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      className="contactPage"
+    >
       <div className="section_wallpaper">
         <PageLandingWallpaper pageName="Contact" />
       </div>
@@ -93,7 +100,7 @@ const ContactPage = () => {
         </div>
       </div>
       {/* */}
-    </div>
+    </motion.div>
   );
 };
 

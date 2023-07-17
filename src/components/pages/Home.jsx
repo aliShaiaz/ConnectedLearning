@@ -6,10 +6,16 @@ import { Link } from "react-router-dom";
 import Categories from "../common/categories/Categories";
 import TeamMembers from "../common/teamMembers/TeamMembers";
 import Testimonials from "../common/testimonials/Testimonials";
+import { motion } from "framer-motion";
 
 const HomePage = () => {
   return (
-    <div className="homePage">
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      className="homePage"
+    >
       <div id="landingArea">
         <img src={imageFiles.img1} alt="" className="img1" />
         <img src={imageFiles.mouse} alt="" className="mouse1" />
@@ -124,7 +130,7 @@ const HomePage = () => {
           <Testimonials />
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

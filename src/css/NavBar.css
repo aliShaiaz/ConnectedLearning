@@ -20,6 +20,10 @@
 .NavBar img {
   /* background-color: red; */
   object-fit: contain;
+  transition: all 0.25s;
+}
+.NavBar img:hover {
+  scale: 1.1;
 }
 
 /*  */
@@ -58,10 +62,12 @@
   margin: 0 20px;
   font-size: 24;
   padding: 20px;
+  transition: all 0.25s;
 }
 .NavBar ul li a:hover {
   font-weight: bolder;
   color: var(--clr1);
+  scale: 1.2;
 }
 
 /* .NavBar ul li a {
@@ -89,10 +95,12 @@
   border-radius: 50px / 40px;
   margin: 0 12px;
   cursor: pointer;
+  transition: all 0.25s;
 }
 
 .NavBar div button:hover {
   background: var(--clr1);
   color: var(--background);
+  scale: 1.2;
 }
 /*  */

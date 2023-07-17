@@ -90,6 +90,10 @@
     letter-spacing: 0em;
     text-align: center;
     cursor: pointer;
+    transition: all 0.25s;
+  }
+  #purchase:hover {
+    scale: 1.2;
   }
 
   .elipse {
