@@ -1,11 +1,9 @@
 .landingWallpaper {
   position: absolute;
   height: 837px;
-  /* background-color: purple; */
   width: 100%;
   overflow: hidden;
 
-  /* Background */
   .Background {
     background: black;
     position: absolute;
@@ -15,15 +13,11 @@
       opacity: 0.5;
     }
   }
-  /*  */
 
-  /* LandingForeground */
   .Foreground {
     position: absolute;
     height: 100%;
     width: 100%;
-    /* top: 405px; */
-    /* width: 100vw; */
     text-align-last: center;
     font-size: 50px;
     color: white;
@@ -45,7 +39,6 @@
       left: 961px;
     }
   }
-  /*  */
 }
 
 .noOverflow {
@@ -53,5 +46,4 @@
 }
 .App {
   max-width: 1905px;
-  /* overflow: hidden; */
 }
